@@ -9,6 +9,7 @@ import { SITE } from "./src/config";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://Lucian-Alexe.github.io',
+  base: '/astro-blog-2',
   integrations: [
     tailwind({
       applyBaseStyles: false,
